@@ -1,0 +1,44 @@
+{
+  "parent": "sift:sift/enter_the_sift",
+  "criteria": {
+    "calm": {
+      "trigger": "minecraft:impossible"
+    },
+    "surge": {
+      "trigger": "minecraft:impossible"
+    },
+    "ebb": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "advancements.sift.three_tides.title",
+      "fallback": "Au rythme des marées"
+    },
+    "description": {
+      "translate": "advancements.sift.three_tides.description",
+      "fallback": "Vivez les trois marées du Sift : Calme, Haute et Basse."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 80
+  },
+  "requirements": [
+    [
+      "calm"
+    ],
+    [
+      "surge"
+    ],
+    [
+      "ebb"
+    ]
+  ]
+}

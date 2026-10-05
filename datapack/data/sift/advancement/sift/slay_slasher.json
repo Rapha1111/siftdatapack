@@ -1,0 +1,40 @@
+{
+  "parent": "sift:sift/enter_the_sift",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "any_of": [
+                "sift.sculk_slasher"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "advancements.sift.slay_slasher.title",
+      "fallback": "Griffes dans la brume"
+    },
+    "description": {
+      "translate": "advancements.sift.slay_slasher.description",
+      "fallback": "Terrassez un Lacérateur de sculk."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

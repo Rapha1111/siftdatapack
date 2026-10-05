@@ -1,0 +1,50 @@
+{
+  "music.sift": {
+    "sounds": [
+      {
+        "name": "sift:music/sift",
+        "stream": true
+      }
+    ]
+  },
+  "music.meadow": {
+    "sounds": [
+      {
+        "name": "sift:music/meadow",
+        "stream": true
+      }
+    ]
+  },
+  "music.carapace": {
+    "sounds": [
+      {
+        "name": "sift:music/carapace",
+        "stream": true
+      }
+    ]
+  },
+  "music.fens": {
+    "sounds": [
+      {
+        "name": "sift:music/fens",
+        "stream": true
+      }
+    ]
+  },
+  "music.crags": {
+    "sounds": [
+      {
+        "name": "sift:music/crags",
+        "stream": true
+      }
+    ]
+  },
+  "music.resonance": {
+    "sounds": [
+      {
+        "name": "sift:music/resonance",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "ambient_light": 0.1,
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "min_delay": 3000,
+        "max_delay": 9000,
+        "sound": "sift:music.sift"
+      }
+    },
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "error_message": {
+        "translate": "sift.bed.no_sleep",
+        "fallback": "Les chants du Sift vous empêchent de dormir."
+      }
+    },
+    "minecraft:gameplay/straw_bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "error_message": {
+        "translate": "sift.bed.no_sleep",
+        "fallback": "Les chants du Sift vous empêchent de dormir."
+      }
+    },
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+    "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:gameplay/water_evaporates": false,
+    "minecraft:visual/ambient_light_color": "#241a3a",
+    "minecraft:visual/cloud_color": "#99ffe0ff",
+    "minecraft:visual/cloud_height": 230.0,
+    "minecraft:visual/fog_color": "#b8f0ff",
+    "minecraft:visual/sky_color": "#78d8ff",
+    "minecraft:visual/star_brightness": 1.0
+  },
+  "coordinate_scale": 1.0,
+  "default_clock": "sift:tides",
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "has_skylight": true,
+  "height": 384,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "logical_height": 384,
+  "min_y": -64,
+  "monster_spawn_block_light_limit": 15,
+  "monster_spawn_light_level": 15,
+  "timelines": "#sift:in_sift"
+}

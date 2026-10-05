@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:noise",
+    "noise": "sift:continents",
+    "xz_scale": 0.7,
+    "y_scale": 0.0
+  }
+}

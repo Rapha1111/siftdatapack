@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:echo_shard",
+    "B": "minecraft:bone_block",
+    "D": "minecraft:deepslate"
+  },
+  "pattern": [
+    "EBE",
+    "DDD"
+  ],
+  "result": {
+    "id": "minecraft:sculk_catalyst",
+    "count": 1
+  }
+}

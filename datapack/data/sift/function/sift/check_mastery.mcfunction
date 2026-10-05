@@ -1,0 +1,11 @@
+execute if entity @s[advancements={sift:sift/sing_to_the_sift=true}] run advancement grant @s only sift:sift/sifter sing_to_the_sift
+execute if entity @s[advancements={sift:sift/enter_the_sift=true}] run advancement grant @s only sift:sift/sifter enter_the_sift
+execute if entity @s[advancements={sift:sift/soul_collector=true}] run advancement grant @s only sift:sift/sifter soul_collector
+execute if entity @s[advancements={sift:sift/soul_overflow=true}] run advancement grant @s only sift:sift/sifter soul_overflow
+execute if entity @s[advancements={sift:sift/three_tides=true}] run advancement grant @s only sift:sift/sifter three_tides
+execute if entity @s[advancements={sift:sift/hear_singer=true}] run advancement grant @s only sift:sift/sifter hear_singer
+execute if entity @s[advancements={sift:sift/ichor_veil=true}] run advancement grant @s only sift:sift/sifter ichor_veil
+execute if entity @s[advancements={sift:sift/echo_ally=true}] run advancement grant @s only sift:sift/sifter echo_ally
+execute if entity @s[advancements={sift:sift/slay_slasher=true}] run advancement grant @s only sift:sift/sifter slay_slasher
+execute if entity @s[advancements={sift:sift/slay_mage=true}] run advancement grant @s only sift:sift/sifter slay_mage
+execute if entity @s[advancements={sift:sift/slay_groobler=true}] run advancement grant @s only sift:sift/sifter slay_groobler

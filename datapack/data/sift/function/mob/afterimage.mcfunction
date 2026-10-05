@@ -1,0 +1,2 @@
+execute as @e[tag=sift.sculk_slasher] at @s run summon minecraft:item_display ~ ~ ~ {Tags:["sift.afterimage"],item_display:"none",view_range:2.0f,brightness:{sky:15,block:15},item:{id:"minecraft:stick",count:1,components:{"minecraft:item_model":"sift:mob/sculk_slasher"}},transformation:{translation:[0f,0.625f,0f],left_rotation:[0f,1f,0f,0f],right_rotation:[0f,0f,0f,1f],scale:[1.25f,1.25f,1.25f]}}
+execute as @e[type=minecraft:item_display,tag=sift.afterimage,tag=!sift.set] at @s run function sift:mob/afterimage_init

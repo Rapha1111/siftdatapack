@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:multiface_growth",
+  "block": "minecraft:sculk_vein",
+  "can_be_placed_on": [
+    "minecraft:terracotta",
+    "minecraft:red_terracotta",
+    "minecraft:orange_terracotta",
+    "minecraft:yellow_terracotta",
+    "minecraft:white_terracotta",
+    "minecraft:brown_terracotta",
+    "minecraft:blue_terracotta",
+    "minecraft:cyan_terracotta",
+    "minecraft:red_sandstone",
+    "minecraft:deepslate",
+    "minecraft:calcite",
+    "minecraft:smooth_red_sandstone"
+  ],
+  "can_place_on_ceiling": true,
+  "can_place_on_floor": true,
+  "can_place_on_wall": true,
+  "chance_of_spreading": 1.0,
+  "search_range": 20
+}

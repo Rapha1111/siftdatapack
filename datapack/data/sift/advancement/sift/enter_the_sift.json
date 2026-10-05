@@ -1,0 +1,39 @@
+{
+  "parent": "sift:sift/sing_to_the_sift",
+  "criteria": {
+    "changed": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "sift:the_sift"
+      }
+    },
+    "fn": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancements.sift.enter_the_sift.title",
+      "fallback": "Là où chantent les âmes"
+    },
+    "description": {
+      "translate": "advancements.sift.enter_the_sift.description",
+      "fallback": "Franchissez le portail du Deep Dark et entrez dans le Sift."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 80
+  },
+  "requirements": [
+    [
+      "changed",
+      "fn"
+    ]
+  ]
+}

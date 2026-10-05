@@ -1,0 +1,4 @@
+scoreboard players set #ray sift.tmp -1
+execute if block ~ ~-1 ~ minecraft:sculk_catalyst if block ~1 ~ ~ minecraft:sculk_sensor if block ~-1 ~ ~ minecraft:sculk_sensor if block ~ ~ ~1 minecraft:sculk_sensor if block ~ ~ ~-1 minecraft:sculk_sensor run function sift:portal/open
+execute unless block ~ ~-1 ~ minecraft:sculk_catalyst run tellraw @a[distance=..8] [{"text":"[Sift] ","color":"light_purple"},{"text":"La Machine à notes est incomplète : il manque le noyau (catalyseur de sculk) sous le bloc musical.","color":"gray"}]
+execute if block ~ ~-1 ~ minecraft:sculk_catalyst unless block ~1 ~ ~ minecraft:sculk_sensor run tellraw @a[distance=..8] [{"text":"[Sift] ","color":"light_purple"},{"text":"La Machine à notes est incomplète : un détecteur de sculk doit entourer le bloc musical (4 côtés).","color":"gray"}]

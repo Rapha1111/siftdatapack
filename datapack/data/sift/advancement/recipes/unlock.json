@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "echo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:echo_shard"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sift:fork",
+      "sift:chime",
+      "sift:vial",
+      "sift:machine_catalyst",
+      "sift:machine_sensor"
+    ]
+  }
+}

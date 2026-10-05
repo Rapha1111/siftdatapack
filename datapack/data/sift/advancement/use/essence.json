@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "used": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:stick",
+          "predicates": {
+            "minecraft:custom_data": {
+              "sift": "essence"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sift:use/essence"
+  }
+}

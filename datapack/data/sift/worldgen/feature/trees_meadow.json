@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "default": {
+    "feature": "sift:blue_tree",
+    "placement": []
+  },
+  "features": [
+    {
+      "chance": 0.3,
+      "feature": {
+        "feature": "sift:blue_tree_tall",
+        "placement": []
+      }
+    }
+  ]
+}

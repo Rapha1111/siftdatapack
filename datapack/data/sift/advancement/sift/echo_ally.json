@@ -1,0 +1,30 @@
+{
+  "parent": "sift:sift/soul_collector",
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "sift:chime"
+      }
+    },
+    "title": {
+      "translate": "advancements.sift.echo_ally.title",
+      "fallback": "Écho fidèle"
+    },
+    "description": {
+      "translate": "advancements.sift.echo_ally.description",
+      "fallback": "Invoquez un Golem d'écho avec le Carillon d'âmes."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 80
+  }
+}

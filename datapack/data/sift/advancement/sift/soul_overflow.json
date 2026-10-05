@@ -1,0 +1,27 @@
+{
+  "parent": "sift:sift/soul_collector",
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "advancements.sift.soul_overflow.title",
+      "fallback": "Débordement d'âmes"
+    },
+    "description": {
+      "translate": "advancements.sift.soul_overflow.description",
+      "fallback": "Remplissez entièrement votre jauge d'âmes."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 80
+  }
+}

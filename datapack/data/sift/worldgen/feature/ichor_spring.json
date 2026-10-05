@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:spring_feature",
+  "state": {
+    "id": "minecraft:water",
+    "properties": {
+      "falling": "true"
+    }
+  },
+  "valid_blocks": [
+    "minecraft:terracotta",
+    "minecraft:red_terracotta",
+    "minecraft:orange_terracotta",
+    "minecraft:yellow_terracotta",
+    "minecraft:white_terracotta",
+    "minecraft:brown_terracotta",
+    "minecraft:blue_terracotta",
+    "minecraft:cyan_terracotta",
+    "minecraft:red_sandstone",
+    "minecraft:deepslate",
+    "minecraft:calcite",
+    "minecraft:smooth_red_sandstone"
+  ]
+}

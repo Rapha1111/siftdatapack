@@ -1,0 +1,258 @@
+{
+  "type": "sift:the_sift",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "sift:ichor_fens",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.0,
+              -0.2
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "sift:ichor_fens",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.0,
+              -0.2
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "sift:singers_meadow",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.2,
+              0.3
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "sift:singers_meadow",
+          "parameters": {
+            "temperature": [
+              -1.0,
+              0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.2,
+              0.3
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "sift:carapace",
+          "parameters": {
+            "temperature": [
+              0.15,
+              1.0
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.2,
+              0.3
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "sift:carapace",
+          "parameters": {
+            "temperature": [
+              0.15,
+              1.0
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.2,
+              0.3
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "sift:resonant_crags",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1.0
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "sift:resonant_crags",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1.0
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "sift:sculk_resonance",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0.0
+          }
+        }
+      ]
+    },
+    "settings": "sift:the_sift"
+  }
+}

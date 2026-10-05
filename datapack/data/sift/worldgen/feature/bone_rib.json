@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block_column",
+  "allowed_placement": {
+    "type": "minecraft:matching_block_tag",
+    "tag": "minecraft:air"
+  },
+  "direction": "up",
+  "layers": [
+    {
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 9
+      },
+      "provider": {
+        "id": "minecraft:bone_block",
+        "properties": {
+          "axis": "y"
+        }
+      }
+    },
+    {
+      "height": 1,
+      "provider": {
+        "id": "minecraft:bone_block",
+        "properties": {
+          "axis": "x"
+        }
+      }
+    },
+    {
+      "height": 1,
+      "provider": {
+        "id": "minecraft:bone_block",
+        "properties": {
+          "axis": "z"
+        }
+      }
+    }
+  ],
+  "prioritize_tip": true
+}

@@ -1,0 +1,97 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": "#78d8ff",
+    "minecraft:visual/fog_color": "#b8f0ff",
+    "minecraft:visual/water_fog_color": "#7a1fb0",
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:note"
+          },
+          "probability": 0.0009
+        },
+        {
+          "particle": {
+            "type": "minecraft:soul"
+          },
+          "probability": 0.002
+        },
+        {
+          "particle": {
+            "type": "minecraft:firefly"
+          },
+          "probability": 0.0012
+        },
+        {
+          "particle": {
+            "type": "minecraft:end_rod"
+          },
+          "probability": 0.0008
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "min_delay": 3000,
+        "max_delay": 9000,
+        "sound": "sift:music.meadow"
+      }
+    }
+  },
+  "carvers": [
+    "sift:cave",
+    "sift:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "foliage_color": "#9fe3ff",
+    "grass_color": "#33b6ff",
+    "water_color": "#d24dff"
+  },
+  "features": [
+    [],
+    [
+      "sift:ichor_pool"
+    ],
+    [
+      "sift:crag_geode_rare"
+    ],
+    [],
+    [],
+    [],
+    [
+      "sift:ore_coal",
+      "sift:ore_iron",
+      "sift:ore_copper",
+      "sift:ore_gold",
+      "sift:ore_redstone",
+      "sift:ore_lapis",
+      "sift:ore_diamond",
+      "sift:ore_emerald",
+      "sift:ore_soul_soil",
+      "sift:ore_sculk_blob",
+      "sift:ore_amethyst_cluster"
+    ],
+    [
+      "sift:sculk_vein_cave",
+      "sift:crystal_cluster_cave"
+    ],
+    [
+      "sift:ichor_spring"
+    ],
+    [
+      "sift:sculk_carpet",
+      "sift:trees_meadow",
+      "sift:tall_blue_grass",
+      "sift:blue_grass",
+      "sift:flowers_meadow",
+      "sift:wildflowers_meadow",
+      "sift:bloom_orbs"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 0.7
+}

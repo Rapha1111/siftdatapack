@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "type": "minecraft:enchanted_count_increase",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "enchantment": "minecraft:looting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "type": "minecraft:enchanted_count_increase",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "enchantment": "minecraft:looting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "sift:soul_essence",
+                "minecraft:custom_data": {
+                  "sift": "essence"
+                },
+                "minecraft:item_name": {
+                  "translate": "item.sift.soul_essence",
+                  "fallback": "Essence d'âme"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "sift:ichor_shard",
+                "minecraft:custom_data": {
+                  "sift": "ichor_shard"
+                },
+                "minecraft:item_name": {
+                  "translate": "item.sift.ichor_shard",
+                  "fallback": "Éclat d'ichor"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

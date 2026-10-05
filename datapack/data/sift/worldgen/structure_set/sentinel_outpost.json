@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 71940117,
+    "separation": 10,
+    "spacing": 26
+  },
+  "structures": [
+    {
+      "structure": "sift:sentinel_outpost",
+      "weight": 1
+    }
+  ]
+}

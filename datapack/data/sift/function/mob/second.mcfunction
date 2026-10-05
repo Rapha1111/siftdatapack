@@ -1,0 +1,9 @@
+execute as @e[tag=sift.singer] at @s run function sift:mob/abilities/singer
+execute as @e[tag=sift.blub] at @s if predicate sift:chance/ambient run function sift:mob/abilities/blub
+execute as @e[tag=sift.licker] at @s if predicate sift:chance/ambient run function sift:mob/abilities/licker
+execute as @e[tag=sift.sprout] at @s run function sift:mob/abilities/sprout
+execute as @e[tag=sift.nester] at @s run function sift:mob/abilities/nester
+execute as @e[tag=sift.sculk_slasher] at @s run function sift:mob/abilities/slasher
+execute as @e[tag=sift.sculk_mage] at @s if predicate sift:chance/ambient run function sift:mob/abilities/mage
+execute as @e[tag=sift.ally] at @s run function sift:mob/abilities/ally
+execute as @e[tag=sift.groobler] at @s run function sift:mob/abilities/groobler

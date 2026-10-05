@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": {
+      "text": "Le Sift — dimension du chant des âmes",
+      "color": "light_purple"
+    },
+    "pack_format": 97,
+    "min_format": [
+      97,
+      1
+    ],
+    "max_format": 97
+  }
+}

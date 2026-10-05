@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "E": "minecraft:echo_shard",
+    "D": "minecraft:deepslate",
+    "C": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "AEA",
+    "DCD"
+  ],
+  "result": {
+    "id": "minecraft:sculk_sensor",
+    "count": 1
+  }
+}

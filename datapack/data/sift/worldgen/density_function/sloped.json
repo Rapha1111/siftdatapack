@@ -1,0 +1,113 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:mul",
+      "left": "sift:depth",
+      "right": 6.0
+    },
+    "right": {
+      "type": "minecraft:mul",
+      "left": "minecraft:overworld/base_3d_noise",
+      "right": {
+        "type": "minecraft:add",
+        "left": 0.8,
+        "right": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:add",
+                "left": "sift:continents",
+                "right": {
+                  "type": "minecraft:mul",
+                  "left": 0.25,
+                  "right": -1.0
+                }
+              },
+              "right": 3.0
+            },
+            "min": 0.0,
+            "max": 1.0
+          },
+          "right": 2.0
+        }
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:add",
+            "left": 1.0,
+            "right": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:abs",
+                  "input": {
+                    "type": "minecraft:noise",
+                    "noise": "sift:ravine",
+                    "xz_scale": 1.0,
+                    "y_scale": 0.0
+                  }
+                },
+                "right": 22.0
+              },
+              "right": -1.0
+            }
+          },
+          "min": 0.0,
+          "max": 1.0
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:add",
+                "left": "sift:temperature",
+                "right": {
+                  "type": "minecraft:mul",
+                  "left": 0.1,
+                  "right": -1.0
+                }
+              },
+              "right": 6.0
+            },
+            "min": 0.0,
+            "max": 1.0
+          },
+          "right": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:add",
+                "left": "sift:continents",
+                "right": 0.15
+              },
+              "right": 6.0
+            },
+            "min": 0.0,
+            "max": 1.0
+          }
+        }
+      },
+      "right": 3.2
+    },
+    "right": -1.0
+  }
+}

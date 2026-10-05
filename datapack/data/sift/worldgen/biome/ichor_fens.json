@@ -1,0 +1,90 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": "#a58bff",
+    "minecraft:visual/fog_color": "#d4c4ff",
+    "minecraft:visual/water_fog_color": "#0a7a78",
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:sculk_soul"
+          },
+          "probability": 0.0016
+        },
+        {
+          "particle": {
+            "type": "minecraft:bubble_pop"
+          },
+          "probability": 0.0008
+        },
+        {
+          "particle": {
+            "type": "minecraft:firefly"
+          },
+          "probability": 0.002
+        },
+        {
+          "particle": {
+            "type": "minecraft:soul"
+          },
+          "probability": 0.0012
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "min_delay": 3000,
+        "max_delay": 9000,
+        "sound": "sift:music.fens"
+      }
+    }
+  },
+  "carvers": [
+    "sift:cave",
+    "sift:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "foliage_color": "#7affd8",
+    "grass_color": "#4dffc4",
+    "water_color": "#3cf2d0"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "sift:ore_coal",
+      "sift:ore_iron",
+      "sift:ore_copper",
+      "sift:ore_gold",
+      "sift:ore_redstone",
+      "sift:ore_lapis",
+      "sift:ore_diamond",
+      "sift:ore_emerald",
+      "sift:ore_soul_soil",
+      "sift:ore_sculk_blob",
+      "sift:ore_amethyst_cluster"
+    ],
+    [
+      "sift:sculk_vein_cave"
+    ],
+    [],
+    [
+      "sift:fen_trees",
+      "sift:fen_sculk",
+      "sift:fen_kelp",
+      "sift:fen_seagrass",
+      "sift:fen_lilies",
+      "sift:fen_lights",
+      "sift:grass_fen"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 0.9
+}

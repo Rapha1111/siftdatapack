@@ -1,0 +1,90 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": "#ffc880",
+    "minecraft:visual/fog_color": "#ffe0b0",
+    "minecraft:visual/water_fog_color": "#a05a00",
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:white_ash"
+          },
+          "probability": 0.012
+        },
+        {
+          "particle": {
+            "type": "minecraft:soul"
+          },
+          "probability": 0.0016
+        },
+        {
+          "particle": {
+            "type": "minecraft:sculk_soul"
+          },
+          "probability": 0.0007
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "min_delay": 3000,
+        "max_delay": 9000,
+        "sound": "sift:music.carapace"
+      }
+    }
+  },
+  "carvers": [
+    "sift:cave",
+    "sift:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "foliage_color": "#ffc860",
+    "grass_color": "#e8a838",
+    "water_color": "#ffb43a"
+  },
+  "features": [
+    [],
+    [
+      "sift:ichor_pool_rare"
+    ],
+    [
+      "sift:bone_ribs"
+    ],
+    [],
+    [],
+    [],
+    [
+      "sift:ore_coal",
+      "sift:ore_iron",
+      "sift:ore_copper",
+      "sift:ore_gold",
+      "sift:ore_redstone",
+      "sift:ore_lapis",
+      "sift:ore_diamond",
+      "sift:ore_emerald",
+      "sift:ore_soul_soil",
+      "sift:ore_sculk_blob",
+      "sift:ore_amethyst_cluster"
+    ],
+    [
+      "sift:sculk_vein_cave",
+      "sift:crystal_cluster_cave"
+    ],
+    [
+      "sift:ichor_spring"
+    ],
+    [
+      "sift:bone_spires",
+      "sift:amber_grass_disk",
+      "sift:amber_grass",
+      "sift:dry_scrub",
+      "sift:carapace_cactus",
+      "sift:amber_wildflowers"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 1.6
+}

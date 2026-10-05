@@ -1,0 +1,27 @@
+{
+  "parent": "sift:sift/enter_the_sift",
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:note_block"
+    },
+    "title": {
+      "translate": "advancements.sift.hear_singer.title",
+      "fallback": "Un chant pur"
+    },
+    "description": {
+      "translate": "advancements.sift.hear_singer.description",
+      "fallback": "Approchez-vous d'un Chanteur — un « avertisseur en bonne santé »."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

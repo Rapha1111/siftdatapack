@@ -1,0 +1,30 @@
+{
+  "parent": "sift:sift/enter_the_sift",
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "sift:soul_essence"
+      }
+    },
+    "title": {
+      "translate": "advancements.sift.soul_collector.title",
+      "fallback": "Cueilleur d'âmes"
+    },
+    "description": {
+      "translate": "advancements.sift.soul_collector.description",
+      "fallback": "Ramassez une âme errante."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

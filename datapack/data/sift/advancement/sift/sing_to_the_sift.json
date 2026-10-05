@@ -1,0 +1,30 @@
+{
+  "parent": "sift:sift/root",
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "sift:fork"
+      }
+    },
+    "title": {
+      "translate": "advancements.sift.sing_to_the_sift.title",
+      "fallback": "Chanter pour le Sift"
+    },
+    "description": {
+      "translate": "advancements.sift.sing_to_the_sift.description",
+      "fallback": "Activez une Machine à notes avec le Diapason du Chanteur."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 10,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 14,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 12,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "sift:soul_essence",
+                "minecraft:custom_data": {
+                  "sift": "essence"
+                },
+                "minecraft:item_name": {
+                  "translate": "item.sift.essence",
+                  "fallback": "Essence d'âme",
+                  "color": "light_purple"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Une âme cristallisée.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consommez-la dans le Sift : +20 âmes.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 64,
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:consumable": {
+                  "consume_seconds": 0.8,
+                  "animation": "drink",
+                  "sound": "minecraft:block.amethyst_block.resonate",
+                  "has_consume_particles": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "sift:vial",
+                "minecraft:custom_data": {
+                  "sift": "vial"
+                },
+                "minecraft:item_name": {
+                  "translate": "item.sift.vial",
+                  "fallback": "Fiole d'ichor",
+                  "color": "light_purple"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Un voile d'ichor : vous traversez l'ichor",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "sans qu'il ne ronge votre âme (3 min).",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "rare",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:potion_contents": {
+                  "custom_color": 12603647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 10,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_berries",
+          "weight": 8,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:note_block",
+          "weight": 6,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_sensor",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

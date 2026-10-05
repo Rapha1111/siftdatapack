@@ -1,0 +1,40 @@
+{
+  "parent": "sift:sift/slay_slasher",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "any_of": [
+                "sift.groobler"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "advancements.sift.slay_groobler.title",
+      "fallback": "Bris de carapace"
+    },
+    "description": {
+      "translate": "advancements.sift.slay_groobler.description",
+      "fallback": "Terrassez une Sentinelle Groobler."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

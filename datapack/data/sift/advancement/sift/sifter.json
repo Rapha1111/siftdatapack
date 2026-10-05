@@ -1,0 +1,95 @@
+{
+  "parent": "sift:sift/slay_mage",
+  "criteria": {
+    "sing_to_the_sift": {
+      "trigger": "minecraft:impossible"
+    },
+    "enter_the_sift": {
+      "trigger": "minecraft:impossible"
+    },
+    "soul_collector": {
+      "trigger": "minecraft:impossible"
+    },
+    "soul_overflow": {
+      "trigger": "minecraft:impossible"
+    },
+    "three_tides": {
+      "trigger": "minecraft:impossible"
+    },
+    "hear_singer": {
+      "trigger": "minecraft:impossible"
+    },
+    "ichor_veil": {
+      "trigger": "minecraft:impossible"
+    },
+    "echo_ally": {
+      "trigger": "minecraft:impossible"
+    },
+    "slay_slasher": {
+      "trigger": "minecraft:impossible"
+    },
+    "slay_mage": {
+      "trigger": "minecraft:impossible"
+    },
+    "slay_groobler": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "sift:soul_essence"
+      }
+    },
+    "title": {
+      "translate": "advancements.sift.sifter.title",
+      "fallback": "Maître du Sift"
+    },
+    "description": {
+      "translate": "advancements.sift.sifter.description",
+      "fallback": "Obtenez tous les autres accomplissements du Sift."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "experience": 300
+  },
+  "requirements": [
+    [
+      "sing_to_the_sift"
+    ],
+    [
+      "enter_the_sift"
+    ],
+    [
+      "soul_collector"
+    ],
+    [
+      "soul_overflow"
+    ],
+    [
+      "three_tides"
+    ],
+    [
+      "hear_singer"
+    ],
+    [
+      "ichor_veil"
+    ],
+    [
+      "echo_ally"
+    ],
+    [
+      "slay_slasher"
+    ],
+    [
+      "slay_mage"
+    ],
+    [
+      "slay_groobler"
+    ]
+  ]
+}

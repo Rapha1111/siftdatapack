@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 71940118,
+    "separation": 8,
+    "spacing": 20
+  },
+  "structures": [
+    {
+      "structure": "sift:ichor_obelisk",
+      "weight": 1
+    }
+  ]
+}
