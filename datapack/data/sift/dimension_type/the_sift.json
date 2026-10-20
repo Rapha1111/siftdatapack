@@ -13,7 +13,9 @@
       "default": {
         "min_delay": 3000,
         "max_delay": 9000,
-        "sound": "sift:music.sift"
+        "sound": {
+          "sound_id": "sift:music.sift"
+        }
       }
     },
     "minecraft:gameplay/bed_rule": {

@@ -30,7 +30,9 @@
       "default": {
         "min_delay": 3000,
         "max_delay": 9000,
-        "sound": "sift:music.carapace"
+        "sound": {
+          "sound_id": "sift:music.carapace"
+        }
       }
     }
   },

@@ -76,7 +76,7 @@ def gen_clock_and_timeline():
     # lune géante fixe + étoiles éclatantes en permanence : le ciel du Sift ne dort jamais
     tracks["minecraft:visual/sun_angle"] = {"keyframes": [{"ticks": 0, "value": 190.0}, {"ticks": PERIOD - 1, "value": 190.0}]}
     tracks["minecraft:visual/moon_angle"] = {"keyframes": [{"ticks": 0, "value": 20.0}, {"ticks": PERIOD - 1, "value": 20.0}]}
-    tracks["minecraft:visual/star_angle"] = {"keyframes": [{"ticks": 0, "value": 0.0}, {"ticks": PERIOD, "value": 360.0}]}
+    tracks["minecraft:visual/star_angle"] = {"keyframes": [{"ticks": 0, "value": 0.0}, {"ticks": PERIOD - 1, "value": 360.0}]}
     tracks["minecraft:visual/moon_phase"] = {"keyframes": [{"ticks": 0, "value": "full_moon"}]}
     dp_json(f"{NS}/timeline/tides", {"clock": f"{NS}:tides", "period_ticks": PERIOD, "tracks": tracks})
     dp_json(f"{NS}/tags/timeline/in_sift", {"values": [f"{NS}:tides", "#minecraft:universal"]})
@@ -92,7 +92,7 @@ def gen_dimension():
         "ambient_light": 0.1,
         "attributes": {
             "minecraft:audio/ambient_sounds": {"mood": {"block_search_extent": 8, "offset": 2.0, "sound": "minecraft:ambient.cave", "tick_delay": 6000}},
-            "minecraft:audio/background_music": {"default": {"min_delay": 3000, "max_delay": 9000, "sound": f"{NS}:music.sift"}},
+            "minecraft:audio/background_music": {"default": {"min_delay": 3000, "max_delay": 9000, "sound": {"sound_id": f"{NS}:music.sift"}}},
             "minecraft:gameplay/bed_rule": bed,
             "minecraft:gameplay/straw_bed_rule": dict(bed),
             "minecraft:gameplay/can_start_raid": False,
@@ -178,7 +178,7 @@ def biome_json(key, carvers, features, temp, parts, music=None, extra_attr=None)
         "minecraft:visual/ambient_particles": parts,
     }
     if music:
-        attrs["minecraft:audio/background_music"] = {"default": {"min_delay": 3000, "max_delay": 9000, "sound": music}}
+        attrs["minecraft:audio/background_music"] = {"default": {"min_delay": 3000, "max_delay": 9000, "sound": {"sound_id": music}}}
     if extra_attr:
         attrs.update(extra_attr)
     return {

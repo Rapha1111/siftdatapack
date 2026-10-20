@@ -96,6 +96,9 @@ def main():
                 continue
             count += 1
             for path, s in walk(data):
+                if "background_music" in path and path.endswith("/sound") and ID_RE.match(s):
+                    errors.append(f"{os.path.relpath(p, ROOT)}{path}: son personnalisé : utiliser {{\"sound_id\": ...}}")
+                    continue
                 if not ID_RE.match(s) or path.endswith("/random_name"):
                     continue
                 if s.startswith("#"):

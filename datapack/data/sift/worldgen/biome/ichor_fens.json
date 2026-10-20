@@ -36,7 +36,9 @@
       "default": {
         "min_delay": 3000,
         "max_delay": 9000,
-        "sound": "sift:music.fens"
+        "sound": {
+          "sound_id": "sift:music.fens"
+        }
       }
     }
   },
